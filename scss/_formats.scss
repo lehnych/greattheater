@@ -1,0 +1,31 @@
+%text-format {
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+
+%p-format {
+    font-family: $text-family;
+    font-style : normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+%btn-format {
+    background-color: $main-color;
+    text-transform  : uppercase;
+    font-style      : normal;
+    font-weight     : bold;
+    letter-spacing  : 0.1em;
+    color           : #FFFFFF;
+    font-size       : 18px;
+    line-height     : 25px;
+
+    &:hover {
+        transition: all 0.2s;
+        box-shadow: 0px 0px 5px 4px rgba(255, 255, 255, 0.2);
+    }
+}
