@@ -1,5 +1,13 @@
 'use strict';
 
+var introHighlights = new Swiper("#introHighlights", {
+    loop: true,
+    navigation: {
+        nextEl: ".swiper-custom-button-next",
+        prevEl: ".swiper-custom-button-prev",
+    },
+});
+
 var projectHighlights = new Swiper("#projectHighlights", {
     slidesPerView: 1,
     spaceBetween: 0,
